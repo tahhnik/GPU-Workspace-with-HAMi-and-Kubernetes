@@ -1,0 +1,27 @@
+# Kubernetes
+*.kubeconfig
+kubeconfig
+
+# Helm
+charts/
+*.tgz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Secrets (never commit)
+*secret*
+*credential*
+*.pem
+*.key
